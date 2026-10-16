@@ -1,14 +1,13 @@
 
 #include <stdio.h>
-
 int main() {
     int n;
     scanf("%d", &n);
 
     if (n % 2 == 0) {
-        printf("Chan");
+        printf("CHAN");
     } else {
-        printf("Le");
+        printf("LE");
     }
 
     return 0;
