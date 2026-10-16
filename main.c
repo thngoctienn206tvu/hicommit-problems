@@ -1,27 +1,23 @@
+c
+```
 #include <stdio.h>
 
 int main() {
-  int D , O;
-  int S;
-  scanf ( "d %d",&D,&O);
-  if ( D <= 0 || O < 0) {
-    PRINTF ("invalid");
-    
-  } else if ( O >= 500000 && D <= 15) {
-    S = 0;
-    printf ("%d",S);
-    
-  } else if ( D <= 5) {
-    S = 15000;
-    printf("%d",S);
-    
-  } else if ( D <= 15) {
-    S = 25000;
-    printf("%d",S);
-    
-  } else {
-    S = 40000;
-    printf("%d",S);
-  }
-  return 0;
+    int distance, order_value;
+    scanf("%d %d", &distance, &order_value);
+
+    if (distance <= 0 || order_value < 0) {
+        printf("INVALID");
+    } else if (order_value >= 500000 && distance <= 15) {
+        printf("0");
+    } else if (distance <= 5) {
+        printf("15000");
+    } else if (distance <= 15) {
+        printf("25000");
+    } else {
+        printf("40000");
+    }
+
+    return 0;
 }
+```
