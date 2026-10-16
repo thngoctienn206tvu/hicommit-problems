@@ -4,7 +4,7 @@ int main() {
     scanf("%d", &t);
 
     if (t < 15)
-        printf("LANH");
+        printf("MAT");
     else if (t < 25)
         printf("MAT");
     else if (t < 35)
