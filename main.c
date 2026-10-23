@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  double w,h;
-  float BMI;
-  printf("\n nhap can nang ");
-  scanf("%lf",&w);
-  printf("\n nhap chieu cao");
-  scanf("%lf",&h) 
+  double w,h ,BMI;
+  
+  scanf("%1f %1f",&w,&h);
   BMI = w/(h/100)^2 
          if (BMI < 18.5 )
   else if (" UNDERWEIGHT",BMI);
