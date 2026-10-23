@@ -9,9 +9,11 @@ int main()
       case 2:
         printf("xep_loai_gioi" ); break;
       case 3:
-        printf("xep_loai_kha" ); break;
+        printf("xep_loai_kha"); break;
       case 4:
       printf("xep_loai_trung_binh" ); break;
+      case 5:
+        printf ("xep_loai_trung_binh"); break;
       default:
         printf("khong hop le");
   
