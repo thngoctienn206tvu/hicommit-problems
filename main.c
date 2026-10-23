@@ -1,5 +1,7 @@
 #include <stdio.h>
-int main() {
+int main() 
+int n ;
+{
   int xep_hang=1;
   switch(xep_hang)
     {
