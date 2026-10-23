@@ -1,18 +1,17 @@
 #include <stdio.h>
 int main() 
-int n=10 ;
 {
   int xep_hang=1;
   switch(xep_hang)
     {
-      case ' xep_loai_xuat_sac':
-        printf("%d",n ) break;
-      case ' xep_loai_gioi':
-        printf("%d",n-1 ) break;
-      case ' xep_loai_kha':
-        printf("%d",n-2 ) break;
-      case ' xep_loai_trung_binh':
-      printf("%d",n-3 ) break;
+      case 1:
+        printf("xep_loai_xuat_sac" ) break;
+      case 2:
+        printf("xep_loai_gioi" ) break;
+      case 3:
+        printf("xep_loai_kha" ) break;
+      case 4:
+      printf("xep_loai_trung_binh" ) break;
       default:
         printf("khong hop le");
   
