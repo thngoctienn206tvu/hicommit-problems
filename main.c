@@ -1,11 +1,15 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+  int w,h;
+  float BMI;
+  printf("\n nhap can nang ");
+  scanf("%f",&w);
+  printf("\n nhap chieu cao");
+  scanf("%f",&h);
+  printf("\n%f(%.1f/100)^2 = %.1f w,h,w/(h/100)^2);
+         if (BMI < 18.5 );
+  else 
+  
+  return 0;
 }
