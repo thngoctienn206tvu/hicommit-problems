@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() 
-int n ;
+int n=10 ;
 {
   int xep_hang=1;
   switch(xep_hang)
