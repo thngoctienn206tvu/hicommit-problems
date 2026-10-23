@@ -2,7 +2,7 @@
 int main() 
 {
   int code;
-  Scanf("%d", &code);
+  scanf("%d", &code);
   switch(code)
     {
       case 1:
