@@ -6,7 +6,7 @@ int main()
   switch(code)
     {
       case 1:
-        printf("XEP_HANG_XUAT_SAC" ); break;
+        printf("XEP_LOAI_XUAT_SAC" ); break;
       case 2:
         printf("XEP_LOAI_GIOI" ); break;
       case 3:
