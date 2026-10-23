@@ -7,14 +7,15 @@ int main() {
   scanf("%f",&w);
   printf("\n nhap chieu cao");
   scanf("%f",&h);
-  printf("\n%f(%.1f/100)^2 = %.1f w,h,w/(h/100)^2);
+  printf("\n BMI");
+  scanf("BMI=w/(h/100)*2")
          if (BMI < 18.5 )
   else if (" UNDERWEIGHT");
-  if ( 18.5 <= BMI < 25)
+  if ( 18.5 <= BMI < 25);
     else if (" NORMAL");
-  if ( 25<= BMI < 30)
+  if ( 25<= BMI < 30);
     else if (" OVERWEIGHT");
-  if ( BMI > 30)
+  if ( BMI > 30);
     else if (" OBESE")
   return 0;
 }
