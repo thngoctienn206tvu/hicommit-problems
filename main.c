@@ -12,7 +12,7 @@ int n=10 ;
       case ' xep_loai_kha':
         printf("%d",n-2 ) break;
       case ' xep_loai_trung_binh':
-      printf("%d",n-3 ) break;
+      printf("%d",n-3 );
          }
   return 0;
 }
