@@ -2,7 +2,7 @@
 
 int main() {
   int w,h;
-  float BMI;
+  double BMI;
   printf("\n nhap can nang ");
   scanf("%f",&w);
   printf("\n nhap chieu cao");
