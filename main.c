@@ -9,12 +9,12 @@ int main() {
            printf("TUNDERWEIGH") ;
   
   else if ("BMI < 25 ") 
-  printf (" NORMAL") ;
+  printf ("NORMAL") ;
   
     else if ("BMI < 30")
-    printf (" OVERWEIGHT");
+    printf ("OVERWEIGHT");
   
  else
-    printf (" OBESE") ;
+    printf ("OBESE") ;
   return 0;
 }
