@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main() 
 {
-  int XEP_HANG=1;
-  switch(XEP_HANG)
+  int code;
+  Scanf("%d",&code);
+  switch(code)
     {
       case 1:
         printf("XEP_HANG_XUAT_SAC" ); break;
@@ -14,7 +15,7 @@ int main()
       printf("XEP_LOAI_TRUNG_BINH" ); break;
        
       default:
-        printf("khong hop le");
+        printf("KHONG_HOP_LE");
   
          }
   return 0;
