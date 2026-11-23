@@ -1,11 +1,50 @@
-// HICOMMIT TEMPLATE FOR C
+
 #include <stdio.h>
+int main()
+  {
+    int d, m, y;
+    int maxDay;
+ scanf("%d %d %d", &d, &m, &y);
+ if (y <= 0 || m < 1 || m > 12)
+ {
+        printf("INVALID");
+    }
+    else if (m == 2)
+    {
+        if (y % 400 == 0 || (y % 4 == 0 && y % 100 != 0)) 
+        {
+            maxDay = 29;
+        }
+        else {
+            maxDay = 28;
+        }
 
-int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+        if (d >= 1 && d <= maxDay) 
+        {
+            printf("VALID");
+        }
+        else {
+            printf("INVALID");
+        }
+    }
+    else if (m == 4 || m == 6 || m == 9 || m == 11)
+    {
+        if (d >= 1 && d <= 30)
+        {
+            printf("VALID");
+        }
+        else {
+            printf("INVALID");
+        }
+    }
+    else {
+        if (d >= 1 && d <= 31)
+        {
+            printf("VALID");
+        }
+        else {
+            printf("INVALID");
+        }
+    }
+ return 0;
 }
