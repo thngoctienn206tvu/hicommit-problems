@@ -15,6 +15,6 @@ int main() {
     {
    ( tien = 15000 + 4 * 13000 + ( d - 5 ) * 11000);
   }
-  printf("%d\n ",(int)tien);
+  printf("%d",(int)tien);
   return 0;
 }
