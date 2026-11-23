@@ -8,11 +8,12 @@ int main() {
  if (abs > 3) {
         printf ("FAIL_ATTENDANCE");
     }
-    else if (min < 4.000) {
+    else if (min < 4.000) 
+    {
         printf ("FAIL_SUBJECT");
     }
     else
-    { (gpa >= 8.0&&  min >= 7.0) 
+    { if (gpa >= 8.0&&  min >= 7.0) {
         printf ("EXCELLENT");
     }
       
