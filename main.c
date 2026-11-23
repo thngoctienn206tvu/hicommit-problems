@@ -1,5 +1,5 @@
 
-#include <iostream>
+#include <stdio.h>
 void std;
 int main() {
     double gpa, min;
