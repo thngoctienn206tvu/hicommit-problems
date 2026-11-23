@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 int main() {
+     scanf("%lf", &d);
     double d, tien;
   if (d <= 1)
   {
