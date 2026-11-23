@@ -1,28 +1,30 @@
 
 #include <stdio.h>
-void std;
 int main() {
-    double gpa, min;
+    float gpa, min;
     int abs;
- cin >> gpa >> min >> abs;
- if (abs > 5) {
-        cout << "FAIL_ATTENDANCE";
+ scanf("%f%f%d",&gpa,&min,&abs);
+
+ if (abs > 3) {
+        printf ("FAIL_ATTENDANCE");
     }
-    else if (min < 4) {
-        cout << "FAIL_SUBJECT";
+    else if (min < 4.000) {
+        printf ("FAIL_SUBJECT");
     }
-    else if (gpa >= 8.5 && min >= 7) {
-        cout << "EXCELLENT";
+    else
+    { (gpa >= 8.0&&  min >= 7.0) {
+        printf ("EXCELLENT");
     }
-    else if (gpa >= 7 && min >= 5.5) {
-        cout << "GOOD";
+      
+     else if (gpa >= 6.5 && min >= 5.0) {
+        printf ("GOOD");
     }
-    else if (gpa >= 5 && min >= 4) {
-        cout << "PASS";
+    else if (gpa >= 5.0 && min >= 4.0) {
+        printf ("PASS");
     }
     else {
-        cout << "FAIL";
+        printf ("FAIL");
     }
- cout << endl;
+    }
     return 0;
 }
