@@ -12,7 +12,7 @@ int main() {
         printf ("FAIL_SUBJECT");
     }
     else
-    { (gpa >= 8.0&&  min >= 7.0) {
+    { (gpa >= 8.0&&  min >= 7.0) 
         printf ("EXCELLENT");
     }
       
